@@ -42,23 +42,55 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
+class OrangeHRMJobCategory {
 
-class JobCategory {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
+	@Given("I want to login and navigate to Job Categories")
+	def loginCredentials() {
+
+		WebUI.openBrowser('')
+		WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+		WebUI.setText(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
+		WebUI.setEncryptedText(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_Password_Submit'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/b_Admin'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/b_Admin'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/a_Job'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/a_Job Categories'))
 	}
 
-	@When("I check for the (\\d+) in step")
-	def I_check_for_the_value_in_step(int value) {
-		println value
+	@When("I want to add input existing categories and new ones")
+	def navigateJobCategory() {
+
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_Job Categories_btnAdd'))
+		WebUI.setText(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input__jobCategoryname'), 'Operatives')
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input__btnSave'))
+		WebUI.doubleClick(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input__jobCategoryname'))
+		WebUI.setText(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input__jobCategoryname'), 'Atest')
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input__btnSave'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_Job Categories_btnAdd'))
+		WebUI.setText(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input__jobCategoryname'), 'ABtest')
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input__btnSave'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_Job Categories_btnAdd'))
+		WebUI.setText(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input__jobCategoryname'), 'ABCtest')
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input__btnSave'))
 	}
 
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
+	@Then("I delete the categories created")
+	def deleteCategories() {
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/tbody_ABCtest                              _64bdce'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_ABtest_chkSelectRow'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_Job Categories_btnDelete'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_OrangeHRM - Confirmation Required_dia_9fc7db'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_ABCtest_chkSelectRow'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_Job Category_chkSelectRow'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_Job Categories_btnDelete'))
+		WebUI.click(findTestObject('Object Repository/New Folder/Page_OrangeHRM/input_OrangeHRM - Confirmation Required_dia_9fc7db'))
+	}
+
+	@And("I want to exit")
+	def exitWeb() {
+		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/a_Welcome Rahul'))
+		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/a_Logout'))
+		WebUI.closeBrowser()
 	}
 }
