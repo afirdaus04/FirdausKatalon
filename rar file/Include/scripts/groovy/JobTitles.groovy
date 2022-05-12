@@ -50,16 +50,15 @@ class OrangeHRMLogin {
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/span_Username'))
-		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 
-    'Admin')
-		WebUI.setEncryptedText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input_Username_txtPassword'), 
-    'hUKwJTbofgPU9eVlw/CnDQ==')
+		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input_LOGIN Panel_txtUsername'),
+				'Admin')
+		WebUI.setEncryptedText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input_Username_txtPassword'),
+				'hUKwJTbofgPU9eVlw/CnDQ==')
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input_Password_Submit'))
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/b_Admin'))
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/b_Admin'))
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/a_Job'))
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/a_Job Titles'))
-
 	}
 
 	@When("I want to add Job Titles (.*) and (.*)")
@@ -67,22 +66,22 @@ class OrangeHRMLogin {
 
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input_Job Titles_btnAdd'))
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input__btnSave'))
-		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input__jobTitlejobTitle'), 
-    title)
-		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/textarea_Job Description_jobTitlejobDescription'), 
-    description)
+		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input__jobTitlejobTitle'),
+				title)
+		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/textarea_Job Description_jobTitlejobDescription'),
+				description)
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input__btnSave'))
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input_Job Titles_btnAdd'))
-		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input__jobTitlejobTitle'), 
-    title)
-		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/textarea_Job Description_jobTitlejobDescription'), 
-    description)
+		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input__jobTitlejobTitle'),
+				title)
+		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/textarea_Job Description_jobTitlejobDescription'),
+				description)
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input__btnSave'))
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input_Job Titles_btnAdd'))
-		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input__jobTitlejobTitle'), 
-    title)
-		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/textarea_Job Description_jobTitlejobDescription'), 
-    description)
+		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input__jobTitlejobTitle'),
+				title)
+		WebUI.setText(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/textarea_Job Description_jobTitlejobDescription'),
+				description)
 		WebUI.click(findTestObject('Object Repository/Orange HRM Rep/Page_OrangeHRM/input__btnSave'))
 	}
 
