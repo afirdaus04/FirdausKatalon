@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0915cc71-f633-4ff8-9b80-0ab22bb7a392</webElementGuid>
+      <webElementGuid>97e4ee2b-f16a-46fc-bfc6-a83052cd9aac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6a19c9c8-2cc9-4dcb-b56e-3967a71c2e30</webElementGuid>
+      <webElementGuid>57549444-fc75-4f0a-8df3-0af92eaf188d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn hover</value>
-      <webElementGuid>902ea6e5-095d-4934-a79d-2fcd5e97eb78</webElementGuid>
+      <webElementGuid>741f5893-1dce-444b-94df-9676eb8341b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-dismiss</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>5b22a739-af7f-4540-9980-a7ba786b541c</webElementGuid>
+      <webElementGuid>80d88e54-e297-4619-9085-f3991d34a687</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>dialogDeleteBtn</value>
-      <webElementGuid>40255221-c4cb-4b03-b8af-4a6fd281f2ec</webElementGuid>
+      <webElementGuid>a11b8b86-1b44-4f98-a2f5-e3faf0fe589b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Ok</value>
-      <webElementGuid>90bee7a9-e530-4c42-a277-42d6b85391b1</webElementGuid>
+      <webElementGuid>31de4180-9d3f-48aa-b843-af18629f8e83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dialogDeleteBtn&quot;)</value>
-      <webElementGuid>95a06753-4da6-4ea5-a81d-2a89a8785430</webElementGuid>
+      <webElementGuid>fe662ea6-7241-4ca1-9fd5-b438d0a78d19</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='dialogDeleteBtn']</value>
-      <webElementGuid>f093742d-3dc6-424f-bd58-9b72aaf92284</webElementGuid>
+      <webElementGuid>5be2584c-f57b-4065-b4bf-728684c728b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='deleteConfModal']/div[3]/input</value>
-      <webElementGuid>e535f898-45f8-4887-9db0-2ce378656852</webElementGuid>
+      <webElementGuid>b1ea0d35-3885-4f08-8391-0a1b577ab14f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[3]/input</value>
-      <webElementGuid>4b32f201-43d0-48af-830f-9b7d9c2c2240</webElementGuid>
+      <webElementGuid>dee41377-b9f6-4e90-8592-d157e23ba25b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'button' and @id = 'dialogDeleteBtn']</value>
-      <webElementGuid>87cbe08a-d38b-4405-9319-6383889f7235</webElementGuid>
+      <webElementGuid>bda68f61-0320-4f40-9342-7818a7fdcf5f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
-
-WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Password_Submit'))
+WebUI.callTestCase(findTestCase('Common/Login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/b_Admin'))
 
@@ -40,42 +32,35 @@ WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Job
 WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__jobTitlejobTitle'), 'Atest')
 
 WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/textarea_Job Description_jobTitlejobDescription'), 
-    'Atest')
+    'Atestdesc')
 
 WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__btnSave'))
 
 WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Job Titles_btnAdd'))
 
-WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__jobTitlejobTitle'), 'AATest')
+WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__jobTitlejobTitle'), 'Atest')
+
+WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__btnSave'))
+
+WebUI.doubleClick(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__jobTitlejobTitle'))
+
+WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__jobTitlejobTitle'), 'ABtest')
 
 WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/textarea_Job Description_jobTitlejobDescription'), 
-    'AAtest')
-
-WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/li_Job Title'))
-
-WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__jobTitlejobTitle'), '')
+    'abtestdesc')
 
 WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__btnSave'))
 
-WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__jobTitlejobTitle'), 'AATest')
+WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Job Titles_btnAdd'))
+
+WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__jobTitlejobTitle'), 'ABCtest')
+
+WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/textarea_Job Description_jobTitlejobDescription'), 
+    'abctestdesc')
 
 WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__btnSave'))
 
-WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_AAtest_chkSelectRow'))
-
-WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Job Titles_btnDelete'))
-
-WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_OrangeHRM - Confirmation Required_dia_9fc7db'))
-
-WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Automation Tester_chkSelectRow'))
-
-WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Job Description_chkSelectRow'))
-
-WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Job Titles_btnDelete'))
-
-WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_OrangeHRM - Confirmation Required_dia_9fc7db'))
-
-WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/a_Welcome Paul'))
+WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/a_Welcome Hoang'))
 
 WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/a_Logout'))
 

@@ -42,7 +42,7 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-class OrangeHRMLogin {
+class OrangeHRMJobTitle {
 
 	@Given("I want to login")
 	def loginCredentials() {
