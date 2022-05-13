@@ -3,7 +3,7 @@
    <description></description>
    <name>b_Admin</name>
    <tag></tag>
-   <elementGuidId>8a0ea436-40fc-4d91-8773-de6ce11bcc4c</elementGuidId>
+   <elementGuidId>8bad783c-3b5d-4d63-8884-cecb575cdd46</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>b</value>
-      <webElementGuid>81d34ee1-853b-441f-b7b7-f15d2a5aa083</webElementGuid>
+      <webElementGuid>e3409091-0813-448c-beb3-45ceca415bea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Admin</value>
-      <webElementGuid>121a006b-e9f6-4cd9-8910-2524dcf07cc2</webElementGuid>
+      <webElementGuid>0727a15a-0d90-482c-ac0e-1163acb3a7cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu_admin_viewAdminModule&quot;)/b[1]</value>
-      <webElementGuid>25f9b308-f22d-4a59-962c-29b7315b80c7</webElementGuid>
+      <webElementGuid>2a95f3dc-48b5-47a7-aaf8-06e8d2512b08</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='menu_admin_viewAdminModule']/b</value>
-      <webElementGuid>3aa00864-d568-4a28-866c-374f66422670</webElementGuid>
+      <webElementGuid>6d24c05c-da1a-490d-8f5c-87bef7cdb4f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Toggl Sync'])[1]/following::b[1]</value>
-      <webElementGuid>f0fc41b0-82df-4bac-89ab-27ea40acae3e</webElementGuid>
+      <webElementGuid>c88ff211-7738-43d3-9cdc-66cca128ef96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/following::b[1]</value>
-      <webElementGuid>59d0ebea-e3b6-44e8-b099-01bafaa76dab</webElementGuid>
+      <webElementGuid>746bdfd7-e676-4c7c-86c7-dd24f1fca0bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Users'])[1]/preceding::b[1]</value>
-      <webElementGuid>d26098d8-768c-4391-969b-c44846043699</webElementGuid>
+      <webElementGuid>9c717e9b-a162-4ffd-b48d-c9e39d80e47f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Titles'])[1]/preceding::b[1]</value>
-      <webElementGuid>bc635838-30db-499e-8d90-85673923f74e</webElementGuid>
+      <webElementGuid>4859e050-59a8-4afc-b4d9-4f57c6afe578</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Admin']/parent::*</value>
-      <webElementGuid>14ec18df-5d67-4f9d-b842-dd018fba9a9d</webElementGuid>
+      <webElementGuid>424c9ca1-fffd-45f8-828a-dfc73b02b7c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//b</value>
-      <webElementGuid>61c6e52e-5cb7-45aa-92f9-60235e50527c</webElementGuid>
+      <webElementGuid>0e62d38a-0d01-4b08-bdca-deedc575f267</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[(text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>510995bb-0937-458a-bbeb-ef76e6e105e2</webElementGuid>
+      <webElementGuid>4e6cacfc-2f33-4a37-b59b-12104643680b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

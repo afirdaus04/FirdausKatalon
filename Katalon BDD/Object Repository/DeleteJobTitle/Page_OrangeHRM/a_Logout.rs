@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Welcome Hoang</name>
+   <name>a_Logout</name>
    <tag></tag>
-   <elementGuidId>12f989a0-af5a-4310-af15-ad5c2653673b</elementGuidId>
+   <elementGuidId>8d7bbd56-c6c9-44f4-992b-ff8e35c532cc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#welcome</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='welcome']</value>
+         <value>//div[@id='welcome-menu']/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,118 +22,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b1783719-89fb-40e7-a91b-cb7dbda726ea</webElementGuid>
+      <webElementGuid>4496b367-6931-4133-a3ca-a9554329cef3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
-      <webElementGuid>90608df5-5e02-42bb-9051-c52eefeb1e31</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>welcome</value>
-      <webElementGuid>11b9abef-93de-4835-8066-4d2cb5c87df2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>panelTrigger</value>
-      <webElementGuid>a75e479a-4bb1-4c6e-b9b8-a386e1efda59</webElementGuid>
+      <value>/index.php/auth/logout</value>
+      <webElementGuid>4d4c18a5-26a5-41b4-bdb4-54429871624a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Welcome Hoang</value>
-      <webElementGuid>50a78bea-0a52-4f27-a287-72fceaf757b5</webElementGuid>
+      <value>Logout</value>
+      <webElementGuid>6a85be28-267d-455f-9d67-f175bcd4c817</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;welcome&quot;)</value>
-      <webElementGuid>f338a1e7-80c9-4397-8e86-73334dd32f24</webElementGuid>
+      <value>id(&quot;welcome-menu&quot;)/ul[1]/li[3]/a[1]</value>
+      <webElementGuid>5b32fcc9-8759-47f0-ad80-5c6644d43f81</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='welcome']</value>
-      <webElementGuid>c32876e2-a722-4d69-b7a0-bbc871117bf7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='branding']/a[2]</value>
-      <webElementGuid>e3420d0d-bf01-4337-acc1-efea0d19a12a</webElementGuid>
+      <value>//div[@id='welcome-menu']/ul/li[3]/a</value>
+      <webElementGuid>a6961451-02a0-4a4c-88af-9ce054ff4f82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Welcome Hoang')]</value>
-      <webElementGuid>dfeda930-5412-45f5-9cdc-0e03aa1d75a0</webElementGuid>
+      <value>//a[contains(text(),'Logout')]</value>
+      <webElementGuid>b01c5dcd-8ebf-47aa-a1cb-3ffece530cd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No new notifications'])[1]/preceding::a[1]</value>
-      <webElementGuid>ca87dc92-34ff-4fef-b5ab-26ed46591d32</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support'])[1]/following::a[1]</value>
+      <webElementGuid>ab228505-3c87-423a-b444-089f054e6a4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Success!'])[1]/preceding::a[1]</value>
-      <webElementGuid>334f29bc-e004-48ff-8b94-88efa5f21d05</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[2]/following::a[2]</value>
+      <webElementGuid>2c65f55a-f9d2-45fe-a8fe-1a63cddd7bfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Welcome Hoang']/parent::*</value>
-      <webElementGuid>825b94de-5f52-4ce3-b326-c877f7677c1b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/preceding::a[1]</value>
+      <webElementGuid>589d5e2c-3715-40a9-8d4c-7e2eda073e13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Toggl Sync'])[1]/preceding::a[2]</value>
+      <webElementGuid>0fa3c749-2c3a-4b07-b346-4c4a2e55ab0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
+      <webElementGuid>2ff24a5a-03b4-4fc8-8089-84198288a1e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>1c2cba65-eddd-4b34-92d7-0c70a3214d31</webElementGuid>
+      <value>//a[contains(@href, '/index.php/auth/logout')]</value>
+      <webElementGuid>21b359ed-6a13-4c47-a4b7-0085b25bd59e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
-      <webElementGuid>580c5049-253a-439c-8091-87b5e63d6670</webElementGuid>
+      <value>//li[3]/a</value>
+      <webElementGuid>b16aa389-f39f-441b-9807-b97db2890540</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Hoang' or . = 'Welcome Hoang')]</value>
-      <webElementGuid>9831fefc-ebaa-40ca-9e60-6ad3dca80db6</webElementGuid>
+      <value>//a[@href = '/index.php/auth/logout' and (text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>51a86e24-80e8-4892-b47b-0c894f01154c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

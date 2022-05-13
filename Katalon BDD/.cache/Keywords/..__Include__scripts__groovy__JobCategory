@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "31C782F215BFBEC2EB5F67966B3459FE",
+  "keywordFileContentHash": "3F07DFAE2DB76A0889EA56A38B49D072",
   "keywordClasses": [
     {
       "name": "JobCategory",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

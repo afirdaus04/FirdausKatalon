@@ -29,6 +29,10 @@ WebUI.click(findTestObject('Object Repository/AddJobCategory/Page_OrangeHRM/a_Jo
 
 WebUI.click(findTestObject('Object Repository/AddJobCategory/Page_OrangeHRM/input_Job Categories_btnAdd'))
 
+WebUI.setText(findTestObject('Object Repository/AddJobCategory/Page_OrangeHRM/input__jobCategoryname'), 'ATest')
+
+WebUI.click(findTestObject('Object Repository/AddJobCategory/Page_OrangeHRM/input__btnSave'))
+
 WebUI.setText(findTestObject('Object Repository/AddJobCategory/Page_OrangeHRM/input__jobCategoryname'), 'BATest')
 
 WebUI.click(findTestObject('Object Repository/AddJobCategory/Page_OrangeHRM/input__btnSave'))

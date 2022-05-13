@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Job Categories_btnDelete</name>
+   <name>input_OrangeHRM - Confirmation Required_dia_9fc7db</name>
    <tag></tag>
-   <elementGuidId>8a176fc7-5e79-463d-9793-3144abc2a8d5</elementGuidId>
+   <elementGuidId>1099d7c3-29a4-4adb-acd2-8f89febe184e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#btnDelete</value>
+         <value>#dialogDeleteBtn</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='btnDelete']</value>
+         <value>//input[@id='dialogDeleteBtn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,102 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a7195a2c-ae56-44ec-b0ce-a14048ed3578</webElementGuid>
+      <webElementGuid>a7591239-6df5-4a9a-a8a7-013132bd4c54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>dd1edccc-29e8-454b-a63e-f9fa02234ee0</webElementGuid>
+      <value>button</value>
+      <webElementGuid>b9fea85b-48d2-43bf-823c-92764ed05be5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>delete hover</value>
-      <webElementGuid>dfc582ef-4a8a-40c0-b97e-d0a914e24a90</webElementGuid>
+      <value>btn hover</value>
+      <webElementGuid>93af9cc8-79ae-4094-a7a9-f311a0b4a16f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dismiss</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>0b0e92ee-b2ba-4f74-9d18-52b6e5da520b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnDelete</value>
-      <webElementGuid>197cb232-4f19-4367-ab5b-e61d54e8693c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>btnDelete</value>
-      <webElementGuid>fa3a2515-2d7c-4f6c-8c76-b89ea6728d3e</webElementGuid>
+      <value>dialogDeleteBtn</value>
+      <webElementGuid>f74c6f26-5d81-4a9c-8449-761f2085dc4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Delete</value>
-      <webElementGuid>f8615369-2b01-4622-b096-dabc3d76b8cb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
-      <type>Main</type>
-      <value>modal</value>
-      <webElementGuid>a3e4a997-6e94-4cf1-8bbc-0d2006a6cba6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-target</name>
-      <type>Main</type>
-      <value>#deleteConfModal</value>
-      <webElementGuid>095779bc-d6db-4126-85e4-6581c4d7789c</webElementGuid>
+      <value>Ok</value>
+      <webElementGuid>b3ee63ab-330a-43d1-8d1c-c646799a79a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnDelete&quot;)</value>
-      <webElementGuid>bf6e2746-a65b-45ed-b677-06d746153804</webElementGuid>
+      <value>id(&quot;dialogDeleteBtn&quot;)</value>
+      <webElementGuid>55851b69-e306-4d08-a6be-7c4fba621fbb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='btnDelete']</value>
-      <webElementGuid>1c753128-8af8-4633-a94a-4378dd82e14f</webElementGuid>
+      <value>//input[@id='dialogDeleteBtn']</value>
+      <webElementGuid>7100f8b2-ef5c-4eef-a669-b470f9b869a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmList_ohrmListComponent']/div/input[2]</value>
-      <webElementGuid>d5eb14c9-1584-4162-81b4-51e179a2b196</webElementGuid>
+      <value>//div[@id='deleteConfModal']/div[3]/input</value>
+      <webElementGuid>70e15aea-3514-4dd0-aa64-451a1fa19fb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/input[2]</value>
-      <webElementGuid>f97650e2-3738-4a4a-8d18-4c88749e4639</webElementGuid>
+      <value>//div[3]/div[3]/input</value>
+      <webElementGuid>31f6833b-c030-4815-9524-89712fcdcf61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @id = 'btnDelete' and @name = 'btnDelete']</value>
-      <webElementGuid>fe8e57f2-deb1-4814-bc4d-b3baab902e4d</webElementGuid>
+      <value>//input[@type = 'button' and @id = 'dialogDeleteBtn']</value>
+      <webElementGuid>751111a2-8aec-41ad-848d-1135006eef39</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

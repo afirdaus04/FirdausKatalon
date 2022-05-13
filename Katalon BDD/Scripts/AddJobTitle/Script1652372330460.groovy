@@ -60,6 +60,15 @@ WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/textare
 
 WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__btnSave'))
 
+WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Job Titles_btnAdd'))
+
+WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__jobTitlejobTitle'), 'ABCDtest')
+
+WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/textarea_Job Description_jobTitlejobDescription'), 
+    'ABCDtestdesc')
+
+WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__btnSave'))
+
 WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/a_Welcome Hoang'))
 
 WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/a_Logout'))

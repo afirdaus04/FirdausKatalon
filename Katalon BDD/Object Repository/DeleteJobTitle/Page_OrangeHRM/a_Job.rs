@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_x</name>
+   <name>a_Job</name>
    <tag></tag>
-   <elementGuidId>28489452-4abb-4226-a72b-26c2d3dc9500</elementGuidId>
+   <elementGuidId>cdaea948-1a89-4af5-bf87-57919748977f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '#?' and @id = 'treeLink_delete_15' and (text() = ' x' or . = ' x')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#treeLink_delete_15</value>
+         <value>#menu_admin_Job</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='testA'])[2]/following::a[2]</value>
+         <value>//a[@id='menu_admin_Job']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,126 +22,134 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d6b0068c-95cf-4b20-af9b-0efc07972bcf</webElementGuid>
+      <webElementGuid>31838186-5ddd-498a-9078-32475aea7be0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#?</value>
-      <webElementGuid>b4e94b51-6220-469d-9287-85c9f0944e79</webElementGuid>
+      <value>#</value>
+      <webElementGuid>b34bdd0d-dc62-426b-837a-d5bc790f776f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>treeLink_delete_15</value>
-      <webElementGuid>d01afe87-baa9-4383-895f-a0ab45319c72</webElementGuid>
+      <value>menu_admin_Job</value>
+      <webElementGuid>06aad940-c07b-4403-87dd-29bcc26679f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>deleteButton hover</value>
-      <webElementGuid>c4597252-e245-4011-b37f-f281a06a287e</webElementGuid>
+      <value>arrow</value>
+      <webElementGuid>6250484f-c72b-48e9-9f17-f1e9ed991b4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> x</value>
-      <webElementGuid>6f69eb1a-5cee-4b0c-9255-462f263246d3</webElementGuid>
+      <value>Job</value>
+      <webElementGuid>6b9e2d7a-7330-4b4b-9446-73c6892611aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;treeLink_delete_15&quot;)</value>
-      <webElementGuid>63ab4c2b-c185-47b2-b664-92b14114253f</webElementGuid>
+      <value>id(&quot;menu_admin_Job&quot;)</value>
+      <webElementGuid>ce1220fa-f3c6-44f2-912e-7408d05d65b4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='treeLink_delete_15']</value>
-      <webElementGuid>83353f3e-f402-45da-a2af-88b02f530d70</webElementGuid>
+      <value>//a[@id='menu_admin_Job']</value>
+      <webElementGuid>c3d26dbe-1d47-411b-a79c-947f7f70eb0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='node_15']/a[3]</value>
-      <webElementGuid>1598376f-ccf3-4d22-a427-b8c69c7b950c</webElementGuid>
+      <value>//ul[@id='mainMenuFirstLevelUnorderedList']/li/ul/li[2]/a</value>
+      <webElementGuid>2f9bd606-9222-46f8-9b22-325a66c97933</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'x')])[13]</value>
-      <webElementGuid>f2f47b02-067f-41ff-ab31-872ae5a98e92</webElementGuid>
+      <value>//a[contains(text(),'Job')]</value>
+      <webElementGuid>444194d2-8c06-4cc1-97cc-1f0a1555a08e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[14]/following::a[1]</value>
-      <webElementGuid>9e5d85bb-3e49-4c48-8690-81d8a3d923c0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users'])[1]/following::a[1]</value>
+      <webElementGuid>3a63d1e6-e05e-44cf-9135-9d6da772513d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='testA'])[2]/following::a[2]</value>
-      <webElementGuid>543fc37f-9365-4542-9c3c-ed8dfa1d7701</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[1]/following::a[3]</value>
+      <webElementGuid>e97e0168-e899-4b76-a7ab-15f5c72deef1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[3]/preceding::a[1]</value>
-      <webElementGuid>9442f076-58ab-48d5-b91c-e29fc47b160b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Titles'])[1]/preceding::a[1]</value>
+      <webElementGuid>b4f9d7a7-bcdb-4427-8439-2b73c7ee9d3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM - Edit Unit'])[1]/preceding::a[2]</value>
-      <webElementGuid>6c48ba02-a37e-433f-8e62-85c05a12c857</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay Grades'])[1]/preceding::a[2]</value>
+      <webElementGuid>de03bc11-c30b-4903-948e-7f24be3ca8e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Job']/parent::*</value>
+      <webElementGuid>eacfe6ac-f119-4aff-ab18-1d98df1900cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#?')])[41]</value>
-      <webElementGuid>2da05adf-cc5d-4e85-867e-c8d8b9ec8bcd</webElementGuid>
+      <value>(//a[contains(@href, '#')])[4]</value>
+      <webElementGuid>cdc62acf-70a5-4e6f-8d4d-b8b990fd3094</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[6]/ul/li/a[3]</value>
-      <webElementGuid>43689737-254c-4e32-b1e4-7febf951bc73</webElementGuid>
+      <value>//li/ul/li[2]/a</value>
+      <webElementGuid>eda1fa86-2ea1-48b3-87bf-d8fedb5facf0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#?' and @id = 'treeLink_delete_15' and (text() = ' x' or . = ' x')]</value>
-      <webElementGuid>84477504-29a7-4554-b257-4b7f4b38da49</webElementGuid>
+      <value>//a[@href = '#' and @id = 'menu_admin_Job' and (text() = 'Job' or . = 'Job')]</value>
+      <webElementGuid>57880708-6e9e-4573-8f96-289159215f64</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

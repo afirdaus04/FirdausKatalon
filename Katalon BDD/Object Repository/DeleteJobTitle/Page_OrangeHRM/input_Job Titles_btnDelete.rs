@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Job Categories_btnDelete</name>
+   <name>input_Job Titles_btnDelete</name>
    <tag></tag>
-   <elementGuidId>8a176fc7-5e79-463d-9793-3144abc2a8d5</elementGuidId>
+   <elementGuidId>b757e93f-f6d9-4408-bb33-6ec5417443b8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a7195a2c-ae56-44ec-b0ce-a14048ed3578</webElementGuid>
+      <webElementGuid>1ed78a56-509a-48be-ac4f-8aaa5abd8141</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>dd1edccc-29e8-454b-a63e-f9fa02234ee0</webElementGuid>
+      <webElementGuid>5de7033d-67b8-4a19-a68f-8129f9026fa0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>delete hover</value>
-      <webElementGuid>dfc582ef-4a8a-40c0-b97e-d0a914e24a90</webElementGuid>
+      <webElementGuid>07a8bef4-7451-4f6b-b1d4-4af201254074</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnDelete</value>
-      <webElementGuid>197cb232-4f19-4367-ab5b-e61d54e8693c</webElementGuid>
+      <webElementGuid>c214eb57-0649-428b-8fbe-552382766439</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>btnDelete</value>
-      <webElementGuid>fa3a2515-2d7c-4f6c-8c76-b89ea6728d3e</webElementGuid>
+      <webElementGuid>036fdb6d-8112-4f98-8781-68f7a300a1a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>f8615369-2b01-4622-b096-dabc3d76b8cb</webElementGuid>
+      <webElementGuid>e13c27b9-be82-48ca-9120-71b2f5ada609</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>a3e4a997-6e94-4cf1-8bbc-0d2006a6cba6</webElementGuid>
+      <webElementGuid>44569d81-968e-470a-a49a-323581d91014</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>data-target</name>
       <type>Main</type>
       <value>#deleteConfModal</value>
-      <webElementGuid>095779bc-d6db-4126-85e4-6581c4d7789c</webElementGuid>
+      <webElementGuid>02e62c2a-e8ec-4497-9f6d-f03516bd2ed4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnDelete&quot;)</value>
-      <webElementGuid>bf6e2746-a65b-45ed-b677-06d746153804</webElementGuid>
+      <webElementGuid>a4976370-2e94-47e4-8c0e-070fff3e39dc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='btnDelete']</value>
-      <webElementGuid>1c753128-8af8-4633-a94a-4378dd82e14f</webElementGuid>
+      <webElementGuid>78eb8a7f-9ee9-4d90-b90e-1bf67646589e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='frmList_ohrmListComponent']/div/input[2]</value>
-      <webElementGuid>d5eb14c9-1584-4162-81b4-51e179a2b196</webElementGuid>
+      <webElementGuid>bcb53101-bdc6-414c-8d22-bd634b8d51d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/input[2]</value>
-      <webElementGuid>f97650e2-3738-4a4a-8d18-4c88749e4639</webElementGuid>
+      <webElementGuid>10fcc265-2b01-4e8f-ab7f-73b085a5b172</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @id = 'btnDelete' and @name = 'btnDelete']</value>
-      <webElementGuid>fe8e57f2-deb1-4814-bc4d-b3baab902e4d</webElementGuid>
+      <webElementGuid>34c34324-2ce7-4969-a239-c083dbc6b822</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

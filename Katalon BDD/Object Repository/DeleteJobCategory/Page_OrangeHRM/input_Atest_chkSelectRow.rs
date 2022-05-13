@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#ohrmList_chkSelectRecord_48</value>
+         <value>#ohrmList_chkSelectRecord_21</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ohrmList_chkSelectRecord_48']</value>
+         <value>//table[@id='resultTable']/tbody/tr[2]/td/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>eed9cf4e-713d-43e3-b1a2-72d562cc133c</webElementGuid>
+      <webElementGuid>a8e718f9-ed33-46fd-9f04-76a7996a5e51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +30,15 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>b659e5a2-6c1b-405f-8a65-c4a614375ba8</webElementGuid>
+      <webElementGuid>f18ed4be-ec3c-4bb9-a4e4-79d4443bab2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ohrmList_chkSelectRecord_48</value>
-      <webElementGuid>bf2e94fa-86e4-4acb-8477-ddbdc7da70f4</webElementGuid>
+      <value>ohrmList_chkSelectRecord_21</value>
+      <webElementGuid>8116a101-bc2e-4df6-bb81-1151fb1f778a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,31 +46,31 @@
       <name>name</name>
       <type>Main</type>
       <value>chkSelectRow[]</value>
-      <webElementGuid>4341fac5-96f4-44e0-98a2-359999570145</webElementGuid>
+      <webElementGuid>89725ec5-d804-4875-a256-7dec82901332</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>48</value>
-      <webElementGuid>bbaa46ce-9f2a-4916-9c4d-6fdcdb09e923</webElementGuid>
+      <value>21</value>
+      <webElementGuid>2ff1f4a3-44f1-43f2-9a70-fecba52e237e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ohrmList_chkSelectRecord_48&quot;)</value>
-      <webElementGuid>19e6fee5-e417-44e2-9885-6b93e2943b44</webElementGuid>
+      <value>id(&quot;ohrmList_chkSelectRecord_21&quot;)</value>
+      <webElementGuid>e55d41e9-2d85-4065-9700-b80d0239770d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ohrmList_chkSelectRecord_48']</value>
-      <webElementGuid>f1ff3f77-9123-4c04-81bd-1628cc652ebe</webElementGuid>
+      <value>//input[@id='ohrmList_chkSelectRecord_21']</value>
+      <webElementGuid>7d1260d3-edff-4da1-9321-f7c241da583f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='resultTable']/tbody/tr[2]/td/input</value>
-      <webElementGuid>44a59e05-764c-4f23-af35-805c8b39034c</webElementGuid>
+      <webElementGuid>ad7f2101-5352-46ff-b00b-5e5b4b0219a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,14 +86,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/input</value>
-      <webElementGuid>2dfd7b63-c7c0-4811-9117-85fcae5ee787</webElementGuid>
+      <webElementGuid>7b1fd32f-6776-4a80-bc90-37c4bbbfe580</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'checkbox' and @id = 'ohrmList_chkSelectRecord_48' and @name = 'chkSelectRow[]']</value>
-      <webElementGuid>86589395-6146-4cc4-b323-0f7d615997a3</webElementGuid>
+      <value>//input[@type = 'checkbox' and @id = 'ohrmList_chkSelectRecord_21' and @name = 'chkSelectRow[]']</value>
+      <webElementGuid>c2b30746-b4e2-41b2-8802-f536beaed030</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

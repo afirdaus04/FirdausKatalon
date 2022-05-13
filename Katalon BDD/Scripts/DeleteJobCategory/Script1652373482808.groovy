@@ -17,7 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Common/Login1'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+
+WebUI.setText(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/input_Username_txtPassword'), 
+    'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/input_Password_Submit'))
 
 WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/b_Admin'))
 
@@ -27,15 +36,15 @@ WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/a
 
 WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/a_Job Categories'))
 
-WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/input_Atest_chkSelectRow'))
+WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/input_BBAtest_chkSelectRow'))
 
 WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/input_Job Categories_btnDelete'))
 
 WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/input_OrangeHRM - Confirmation Required_dia_9fc7db'))
 
-WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/input_Atest_chkSelectRow_1'))
+WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/input_BATest_chkSelectRow'))
 
-WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/input_BBAtest_chkSelectRow'))
+WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/input_Atest_chkSelectRow'))
 
 WebUI.click(findTestObject('Object Repository/DeleteJobCategory/Page_OrangeHRM/input_Job Categories_btnDelete'))
 

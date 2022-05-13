@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Job Categories_btnDelete</name>
+   <name>input_Password_Submit</name>
    <tag></tag>
-   <elementGuidId>8a176fc7-5e79-463d-9793-3144abc2a8d5</elementGuidId>
+   <elementGuidId>a141729c-ac00-43cc-a747-21a41d5c56b4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#btnDelete</value>
+         <value>#btnLogin</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='btnDelete']</value>
+         <value>//input[@id='btnLogin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a7195a2c-ae56-44ec-b0ce-a14048ed3578</webElementGuid>
+      <webElementGuid>e30ac14d-34f5-46f8-b704-1b24c90f0384</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,94 +30,78 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>dd1edccc-29e8-454b-a63e-f9fa02234ee0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>delete hover</value>
-      <webElementGuid>dfc582ef-4a8a-40c0-b97e-d0a914e24a90</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btnDelete</value>
-      <webElementGuid>197cb232-4f19-4367-ab5b-e61d54e8693c</webElementGuid>
+      <webElementGuid>30c2d15f-f224-4610-9531-b01e407740ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>btnDelete</value>
-      <webElementGuid>fa3a2515-2d7c-4f6c-8c76-b89ea6728d3e</webElementGuid>
+      <value>Submit</value>
+      <webElementGuid>776a48a0-666f-4e4a-9f50-80f05cf9fa14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button hover</value>
+      <webElementGuid>c0eee666-4a3e-494b-866d-776f02f39ccd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnLogin</value>
+      <webElementGuid>6d0ea4f0-50ad-46e0-aaa5-0d7788b28888</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Delete</value>
-      <webElementGuid>f8615369-2b01-4622-b096-dabc3d76b8cb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
-      <type>Main</type>
-      <value>modal</value>
-      <webElementGuid>a3e4a997-6e94-4cf1-8bbc-0d2006a6cba6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-target</name>
-      <type>Main</type>
-      <value>#deleteConfModal</value>
-      <webElementGuid>095779bc-d6db-4126-85e4-6581c4d7789c</webElementGuid>
+      <value>LOGIN</value>
+      <webElementGuid>3dd213c2-c580-4d5e-baf7-1ae40c7e4621</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnDelete&quot;)</value>
-      <webElementGuid>bf6e2746-a65b-45ed-b677-06d746153804</webElementGuid>
+      <value>id(&quot;btnLogin&quot;)</value>
+      <webElementGuid>327e703f-7fbf-4ecb-8773-7409d8a5c399</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='btnDelete']</value>
-      <webElementGuid>1c753128-8af8-4633-a94a-4378dd82e14f</webElementGuid>
+      <value>//input[@id='btnLogin']</value>
+      <webElementGuid>24d7a096-3cb9-4ccf-b3a1-48c5e077e001</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='frmList_ohrmListComponent']/div/input[2]</value>
-      <webElementGuid>d5eb14c9-1584-4162-81b4-51e179a2b196</webElementGuid>
+      <value>//div[@id='divLoginButton']/input</value>
+      <webElementGuid>6024c408-9702-48a9-b789-70724e6f66b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/input[2]</value>
-      <webElementGuid>f97650e2-3738-4a4a-8d18-4c88749e4639</webElementGuid>
+      <value>//div[5]/input</value>
+      <webElementGuid>63dd9ecb-ab35-40ed-afaa-00394f376629</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @id = 'btnDelete' and @name = 'btnDelete']</value>
-      <webElementGuid>fe8e57f2-deb1-4814-bc4d-b3baab902e4d</webElementGuid>
+      <value>//input[@type = 'submit' and @name = 'Submit' and @id = 'btnLogin']</value>
+      <webElementGuid>8029d5e5-a684-4df3-bf7b-f0880d99249e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
